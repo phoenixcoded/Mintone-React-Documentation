@@ -4,15 +4,15 @@
 You can edit this file at **`[ ../src/config.ts ]`**
 {% endhint %}
 
-| **Option** | **Default** | **Data Type** | **Description** |
-| :--- | :--- | :--- | :--- |
-| **layout** | vertical | String | `vertical`, `horizontal` |
-| **collapseMenu** | false | Boolean | `true`, `false` |
-| **layoutType** | menu-dark | String | `menu-dark`, `menu-light`, `dark` |
-| **headerBackColor** | header-default | String | `default-header`,`header-blue`, `header-red`, `header-purple`, `header-info`,  `header-green`,`header-dark` |
-| **fullWidthLayout** | false | Boolean | `true`, `false` |
-| **navFixedLayout** | true | Boolean | `true`, `false` |
-| **headerFixedLayout** | true | Boolean | `true`, `false` |
+| **Option**            | **Default**    | **Data Type** | **Description**                                                                                             |
+| --------------------- | -------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
+| **layout**            | vertical       | String        | `vertical`, `horizontal`                                                                                    |
+| **collapseMenu**      | false          | Boolean       | `true`, `false`                                                                                             |
+| **layoutType**        | menu-dark      | String        | `menu-dark`, `menu-light`, `dark`                                                                           |
+| **headerBackColor**   | header-default | String        | `default-header`,`header-blue`, `header-red`, `header-purple`, `header-info`,  `header-green`,`header-dark` |
+| **fullWidthLayout**   | false          | Boolean       | `true`, `false`                                                                                             |
+| **navFixedLayout**    | true           | Boolean       | `true`, `false`                                                                                             |
+| **headerFixedLayout** | true           | Boolean       | `true`, `false`                                                                                             |
 
 {% tabs %}
 {% tab title="config.js" %}
@@ -28,8 +28,6 @@ export default {
     navFixedLayout: true,
     headerFixedLayout: true
 };
-
 ```
 {% endtab %}
 {% endtabs %}
-
